@@ -1,0 +1,44 @@
+            /*variable in sass*/
+$color: white;
+.heading2{
+    color: white;
+  
+}
+.para1{
+    color: white;
+}
+            /*nesting*/
+.about{
+    background-color: black;
+    filter: opacity(70%);
+    width:40%;
+    height: 480px;
+    transform: translate(30%,-110%);
+
+ .heading2{
+   
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top:10px;
+    filter: brightness(100%);
+}
+ .para1{
+   
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 20px;
+    line-height: 1.1;
+    filter: brightness(100%);
+}
+}
+/* inheritance */
+%effects {
+      
+            width:100%;
+            filter: brightness(40%);
+            background-size: cover;
+}
+.bgpic{
+    @extend %effects;
+    background-repeat: no-repeat;
+}

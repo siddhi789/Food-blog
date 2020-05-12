@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+h1{
+    font-style: italic;
+    font-size: 48px;
+    padding-top: 10px;
+}
+.left-main-nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.right-main-nav ul{
+    float:right;
+}
+.right-main-nav ul li{
+    display: inline-block;
+ 
+}
+.fa {
+    font-size: 80px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+.fa-facebook:hover {
+background-color: blue;
+}
+.fa-google:hover {
+   background-color: orangered;
+  }
+  .fa-instagram:hover {
+  background-color: pink;
+  }
+.left-main-nav ul{
+    float:left;
+    text-decoration: none;
+}
+.left-main-nav ul li{
+    display: inline-block;
+    padding: 5px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.right-main-nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transform: translate(-50%,-125%);
+}
+.left-main-nav ul li a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    background-color: transparent;
+    opacity:0.8;
+    }
+.main-content h1{
+    text-align:center;
+    font-size: 39px;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left:90px;
+}
+.main-content h4{
+    text-align: center;
+    line-height: 0.2;
+}
+h1:hover{
+    background-color: black;
+    color: white;
+}
+h1::first-letter{
+    font-size: 48px;
+}
+h4::first-line{
+  text-decoration:  line-through;
+}
+@media (max-width:700px){
+    h1{
+      font-size: 20px;
+      padding: 2px;
+      text-decoration: underline; 
+    }
+    }
+    @media (min-width:701px){
+    h1{
+      font-size: 48px;
+      
+    }
+    }
